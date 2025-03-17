@@ -1,0 +1,7 @@
+../Core/Src/main.c:59:6:GpioConfig	4	static
+../Core/Src/main.c:66:6:TimConfig	4	static
+../Core/Src/main.c:76:6:Pwm_DutyCycle	16	static
+../Core/Src/main.c:86:5:main	8	static
+../Core/Src/main.c:140:6:SystemClock_Config	88	static
+../Core/Src/main.c:186:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:207:6:Error_Handler	4	static,ignoring_inline_asm

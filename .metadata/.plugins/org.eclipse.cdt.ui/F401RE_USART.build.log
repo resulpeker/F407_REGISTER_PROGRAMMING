@@ -1,0 +1,10 @@
+14:45:11 **** Incremental Build of configuration Debug for project F401RE_USART ****
+make -j8 all 
+arm-none-eabi-size  F401RE_USART.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5216	     12	   1572	   6800	   1a90	F401RE_USART.elf
+Finished building: default.size.stdout
+ 
+
+14:45:11 Build Finished. 0 errors, 0 warnings. (took 389ms)
+

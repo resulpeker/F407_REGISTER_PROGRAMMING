@@ -1,0 +1,24 @@
+16:08:43 **** Incremental Build of configuration Debug for project f103_uart ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:103:27: warning: pointer targets in initialization of 'uint8_t *' {aka 'unsigned char *'} from 'char *' differ in signedness [-Wpointer-sign]
+  103 |           uint8_t * mesaj="Merhaba \n";
+      |                           ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "f103_uart.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\PEKER\Desktop\F407VG_REGISTER\f103_uart\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="f103_uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: f103_uart.elf
+ 
+arm-none-eabi-size  f103_uart.elf 
+arm-none-eabi-objdump -h -S f103_uart.elf  > "f103_uart.list"
+arm-none-eabi-objcopy  -O ihex f103_uart.elf  "f103_uart.hex"
+   text	   data	    bss	    dec	    hex	filename
+   6004	     12	   1644	   7660	   1dec	f103_uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: f103_uart.hex
+ 
+Finished building: f103_uart.list
+ 
+
+16:08:44 Build Finished. 0 errors, 1 warnings. (took 1s.92ms)
+

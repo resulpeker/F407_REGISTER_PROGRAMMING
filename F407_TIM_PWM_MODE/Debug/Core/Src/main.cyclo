@@ -1,0 +1,7 @@
+../Core/Src/main.c:59:6:GpioConfig	1
+../Core/Src/main.c:66:6:TimConfig	1
+../Core/Src/main.c:76:6:Pwm_DutyCycle	1
+../Core/Src/main.c:86:5:main	1
+../Core/Src/main.c:140:6:SystemClock_Config	3
+../Core/Src/main.c:186:13:MX_GPIO_Init	1
+../Core/Src/main.c:207:6:Error_Handler	1

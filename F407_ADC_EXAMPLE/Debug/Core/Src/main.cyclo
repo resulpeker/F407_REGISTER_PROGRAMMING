@@ -1,0 +1,8 @@
+../Core/Src/main.c:61:6:GpioConfig	1
+../Core/Src/main.c:72:6:AdcConfig	1
+../Core/Src/main.c:82:10:Read_Adcvalue	2
+../Core/Src/main.c:88:9:map	4
+../Core/Src/main.c:111:5:main	1
+../Core/Src/main.c:161:6:SystemClock_Config	3
+../Core/Src/main.c:207:13:MX_GPIO_Init	1
+../Core/Src/main.c:228:6:Error_Handler	1

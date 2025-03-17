@@ -1,0 +1,10 @@
+18:06:24 **** Incremental Build of configuration Debug for project F407_LED_BLINK ****
+make -j8 all 
+arm-none-eabi-size  F407_LED_BLINK.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5112	     12	   1572	   6696	   1a28	F407_LED_BLINK.elf
+Finished building: default.size.stdout
+ 
+
+18:06:25 Build Finished. 0 errors, 0 warnings. (took 253ms)
+
